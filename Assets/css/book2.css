@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&family=Merriweather:wght@300&family=Poppins:ital,wght@0,100;0,200;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&family=Merriweather:wght@300&family=Poppins:ital,wght@0,100;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridlayout{
+    width: 95%;
+    margin: auto;
+    /* height: 100vh;
+    background-color: antiquewhite; */
+}
+p{
+    font-size: 400;
+}
+/* HEADER */
+.searchBox{
+    width: 100%;
+}
+.mainheaderdiv{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.subHeaderul{
+    display: flex;
+    /* justify-content: space-between; */
+    list-style-type: none;
+}
+.mainheaderdiv input{
+padding: 5px 10px;
+margin-top: 15px;
+width: 600px;
+font-family: 'Martel Sans', sans-serif;
+}
+.searchbtn{
+    position: relative;
+    left: -30px;
+    top: 5px;
+}
+.textlogin{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.discover{
+
+    margin-top: 20px;
+}
+.cartimg{
+    margin-top: 20px;
+    width: 25px;
+}
+.mainheaderdiv li{
+    list-style-type: none;
+}
+.div{
+    display: flex;
+}
+.firstcontent{
+    background-color: #F2F2F2;
+    width:20%;
+    padding: 20px 0px;
+    text-align: center;
+}
+.secondcontent{
+    background-color: #FFD6D6;
+    width: 15%;
+    padding: 20px 0px;
+    text-align: center;
+}
+.div ul li{
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+.webd{
+    font-weight: bolder;
+}
+.div{
+    opacity: 0;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    width: 70%;
+}
+.discover:hover .div{
+    opacity: 1;
+}
+/* HERO SECTION */
+.BgImage{
+    background-image: url(/Assets/images/Book2\ Banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.herosectioncontent{
+    text-align: center;
+    padding-top: 60px;
+}
+.herosectioncontent p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 49%;
+    padding: 15px 0px;
+    margin-left: 303px;
+}
+.herosectioncontent h1{
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* CARD SECTION */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.subDivOne , .subDivTwo ,.subDivThree ,.subDivFour ,.subDivFive ,.subDivSix ,.subDivSeven , .subDivEight , .subDivNine{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    /* padding: 10px 0px; */
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.subDivOne a, .subDivTwo a, .subDivThree a, .subDivFour a, .subDivFive a, .subDivSix a, .subDivSeven a, .subDivEight a, .subDivNine a{
+    text-decoration: none;
+    color: black;
+}
+.subDivOne a:hover, .subDivTwo a:hover, .subDivThree a:hover, .subDivFour a:hover, .subDivFive a:hover, .subDivSix a:hover, .subDivSeven a:hover, .subDivEight a:hover, .subDivNine a:hover{
+    color: red;
+}
+/* FOOTER */
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+     background-color: hsl(0, 9%, 17%);
+     color: white;
+     padding: 30px 20px;
+}
+.footer2 ul , .footer3 ul , .footer4 ul{
+    list-style-type: none;
+}
+.footer1 p {
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+.footer2 h3 , .footer3 h3 , .footer4 h3 , .footer5 h3 {
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.footer2 ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.footer3 ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.footer4 ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.footer5 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    width: 60%;
+}
+.footer5 input{
+    padding: 8px 10px;
+    position: absolute;
+}
+.footer5 img{
+    margin-right: 60px;
+    position: relative;
+    left: 165px;
+    top: 7px;
+}
+.footer1{
+    margin-left: 80px;
+}
+.footer2{
+    margin-right: 88px;
+}
+.footer4{
+     margin-left: 95px;
+}
+.footer5{
+    margin-left: 80px;
+}
+/* COPY RIGHT'S */
+.copyrights{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.firstcontent a , .secondcontent a{
+    text-decoration: none;
+    color: black;
+}
+.firstcontent a:hover , .secondcontent a:hover {
+    color: red;
+}
+.mainheaderdiv a{
+    text-decoration: none;
+    color: black; 
+}
+.mainheaderdiv a:hover{
+    color: red; 
+}
+.footer2 a , .footer3 a , .footer4 a{
+    text-decoration: none;
+    color: white;
+}
+.footer2 a:hover , .footer3 a:hover , .footer4 a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+header , main , footer{
+    overflow: hidden;
+}
+
+/* mobile responsive */
+
+@media screen and (max-width:500px){
+ .flex ,.mainfooter{
+        display: block;
+    }
+    .mainheaderdiv input , .searchbtn{
+        display: none;
+    }
+    .herosectioncontent {
+        text-align: center;
+        padding-top: 49px;
+    }
+    .herosectioncontent h1{
+        font-size: 10px;
+        margin-top: -30px;
+    }
+    .herosectioncontent p{
+        font-size: 10px;
+    width: 97%;
+    margin-left: 4px;
+    padding: 2px 0px;
+    }
+    .footer1 , .footer4 ,.footer5{
+        margin-left: 0px;
+    }
+    .mainfooter{
+        padding: 32px 31px
+    }
+    .BgImage{
+        height: 170px;
+    }
+    .subDivOne img, .subDivTwo img, .subDivThree img, .subDivFour img, .subDivFive img, .subDivSix img, .subDivSeven img, .subDivEight img, .subDivNine img{
+        width: 100%;
+    }
+    .Logindiv img {
+        width: 45px;
+        margin-left: 21px;
+    }
+    .Logindiv{
+        width: 330px;
+    }
+    .Logincontent input{
+        width: 200px;
+    }
+    .textlogin{
+        margin-top: 15px;
+    }
+    .cartimg {
+        margin-top: 12px;
+    }
+    .loogo{
+        width: 30px;
+        margin-top: 15px;
+    }
+    .discover{
+        margin-top: 15px;
+    }
+    .dropdown{
+        position: relative;
+        top: 3px;
+        left: 5px;
+    }
+    .firstcontent , .secondcontent{
+        width: 50%;
+    }
+    .div{
+        left: 0;
+    }
+    .mainheaderdiv {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+}
+/* MOBILE RESPONSIVE */
+@media (min-width:700px) and (max-width:850px) {
+ 
+    .mainheaderdiv input{
+        width: 200px;
+    }
+    .mainfooter {
+        padding: 20px 2px;
+    }
+    .footer1{
+        margin-left: 2px;
+    }
+    .footer2{
+        margin-right: 50px;
+    }
+    .footer4 {
+        margin-left: 47px;
+    }
+    .footer5 {
+        margin-left: 63px;
+    }
+    .footer5 p{
+        width: 78%;
+    }
+    .herosectioncontent h1{
+        font-size: 25px;
+    }
+    .herosectioncontent p {
+        width: 99%;
+        padding: 5px 0px;
+        margin-left: 9px;
+    }
+    .BgImage{
+        height: 300px;
+    }
+}

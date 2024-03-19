@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&family=Merriweather:wght@300&family=Poppins:ital,wght@0,100;0,200;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&family=Merriweather:wght@300&family=Poppins:ital,wght@0,100;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridlayout{
+    width: 95%;
+    margin: auto;
+    /* height: 100vh;
+    background-color: antiquewhite; */
+}
+p{
+    font-weight: 400px;
+}
+
+/* HEADER */
+.searchBox{
+    width: 100%;
+}
+.mainheaderdiv{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.subHeaderul{
+    display: flex;
+    /* justify-content: space-between; */
+    list-style-type: none;
+}
+.mainheaderdiv input{
+padding: 5px 10px;
+margin-top: 15px;
+width: 600px;
+}
+.searchbtn{
+    position: relative;
+    left: -30px;
+    top: 5px;
+}
+.textlogin{
+    margin-top: 20px;
+}
+.discover{
+
+    margin-top: 20px;
+}
+.cartimg{
+    margin-top: 20px;
+    width: 25px;
+}
+.mainheaderdiv li{
+    list-style-type: none;
+}
+.div{
+    display: flex;
+}
+.firstcontent{
+    background-color: #F2F2F2;
+    width:20%;
+    padding: 20px 0px;
+    text-align: center;
+}
+.secondcontent{
+    background-color: #FFD6D6;
+    width: 15%;
+    padding: 20px 0px;
+    text-align: center;
+}
+.div ul li{
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+.webd{
+    font-weight: bolder;
+}
+.div{
+    opacity: 0;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    width: 70%;
+}
+.discover:hover .div{
+    opacity: 1;
+}
+/* HERO SECTION */
+.divBgImage{
+    background: url(/Assets/images/Award\ winners\ banner.png );
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.heroSectionContent{
+    text-align: center;
+    padding-top: 50px;
+}
+.heroSectionContent p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 40%;
+   padding: 20px 0px;
+   margin-left: 330px;
+}
+.heroSectionContent h1{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+/* CARD SECTION */
+.contentDiv{
+    margin-top: 3px;
+}
+.contentDiv h3{
+ color: red;
+}
+.contentDiv p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 3px 0px;
+}
+.contentDiv hr{
+    width: 90%;
+    margin: 10px 0px;
+}
+.contentDiv button{
+    font-size: 15px;
+    font-weight: 50;
+    background-color: red;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+}
+.btn:hover{
+   
+    border: solid 2px red;
+    background-color: white;
+    color: red;
+}
+.imageDiv img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+
+
+.mainContentDiv{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 0px;
+   
+    
+}
+
+
+
+
+
+/* FOOTER */
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+     background-color: hsl(0, 9%, 17%);
+     color: white;
+     padding: 30px 20px;
+}
+.footer2 ul , .footer3 ul , .footer4 ul{
+    list-style-type: none;
+}
+.footer1 p {
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+.footer2 h3 , .footer3 h3 , .footer4 h3 , .footer5 h3 {
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.footer2 ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.footer3 ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.footer4 ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.footer5 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    width: 57%;
+}
+.footer5 input{
+    padding: 8px 10px;
+    position: absolute;
+}
+.footer5 img{
+    margin-right: 60px;
+    position: relative;
+    left: 165px;
+    top: 7px;
+}
+.footer1{
+    margin-left: 80px;
+}
+.footer2{
+    margin-right: 88px;
+}
+.footer4{
+     margin-left: 95px;
+}
+.footer5{
+    margin-left: 80px;
+}
+/* COPY RIGHT'S */
+.copyrights{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+header , main , footer{
+    overflow: hidden;
+}
+
+.firstcontent a , .secondcontent a{
+    text-decoration: none;
+    color: black;
+}
+.firstcontent a:hover , .secondcontent a:hover {
+    color: red;
+}
+.mainheaderdiv a{
+    text-decoration: none;
+    color: black; 
+}
+.mainheaderdiv a:hover{
+    color: red; 
+}
+.footer2 a , .footer3 a , .footer4 a{
+    text-decoration: none;
+    color: white;
+}
+.footer2 a:hover , .footer3 a:hover , .footer4 a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+
+
+/* mobile responsive */
+
+@media screen and (max-width:500px){
+    .mainheaderdiv , .flex ,.mainfooter , .mainContentDiv{
+        display: block;
+    }
+    .mainheaderdiv input , .searchbtn{
+        display: none;
+    }
+    .heroSectionContent p {
+        width: 80%;
+        padding: 0px 0px;
+        margin-left: 43px;
+        font-size: 9px;
+    }
+    .heroSectionContent h1{
+        margin-top: -38px;
+        font-size: 12px;
+    }
+    .heroSectionContent {
+        text-align: center;
+        padding-top: 70px;
+    }
+    .footer1 , .footer4 ,.footer5{
+        margin-left: 0px;
+    }
+    .mainfooter{
+        padding: 32px 31px
+    }
+    .divBgImage{
+        height: 170px;
+    }
+    .imageDiv img {
+        width: 80%;
+        margin-left: 37px;
+    }
+    .contentDiv{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .contentDiv hr{
+        width: 78%;
+        margin-left: 43px;
+    }
+    .imageDiv img {
+        width: 54%;
+        margin-left: 89px;
+    }
+    .contentDiv hr{
+        width: 78%;
+        margin-left: 40px;
+    }
+    .contentDiv{
+        margin-top: 36px;
+        text-align: center;
+    }
+    .loogo{
+        width: 30px;
+        margin-top: 15px;
+    }
+    .discover{
+        margin-top: 15px;
+    }
+    .dropdown{
+        position: relative;
+        top: 3px;
+        left: 5px;
+    }
+    .firstcontent , .secondcontent{
+        width: 50%;
+    }
+    .div{
+        left: 0;
+    }
+    .mainheaderdiv {
+        display: flex;
+        justify-content: center;
+        gap: 45px;
+    }
+   .textlogin{
+    margin-top: 14px;
+   }
+   .cartimg {
+    margin-top: 11px;
+   }
+}
+/* MOBILE RESPONSIVE */
+@media (min-width:700px) and (max-width:850px) {
+ 
+    .mainheaderdiv input{
+        width: 200px;
+    }
+    .mainfooter {
+        padding: 20px 20px;
+    }
+    .footer1{
+        margin-left: 2px;
+    }
+    .footer2{
+        margin-right: 50px;
+    }
+    .footer4 {
+        margin-left: 47px;
+    }
+    .footer5 {
+        margin-left: 63px;
+    }
+    .footer5 p{
+        width: 78%;
+    }
+    .footer5 input {
+        padding: 8px 2px;
+    }
+    .footer5 img{
+        left: 140px;
+    }
+    .divBgImage {
+        height: 300px;
+    }
+    .heroSectionContent h1{
+        margin-top: 7px;
+        font-size: 25px;
+    }
+    .heroSectionContent p{
+        margin-left: 140px;
+        width: 60%;
+    }
+    .heroSectionContent {
+        text-align: center;
+        padding-top: 16px;
+    }
+    .heroSectionContent p {
+        margin-left: 21px;
+        width: 96%;
+        padding: 8px 0px;
+    }
+}
